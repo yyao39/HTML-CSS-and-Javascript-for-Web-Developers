@@ -8,7 +8,7 @@
 
 .container {
     width: 33.33%;
-    padding: 20px;
+    padding: 18px;
     float:left;
 }
 
@@ -53,15 +53,15 @@
 /* Desktop */
 @media (min-width: 992px) {
     #c1 {
-        padding-right: 10px;
+        padding-right: 6px;
     }
 
     #c2 {
-        padding-right: 10px;
-        padding-left: 10px;
+        padding-right: 12px;
+        padding-left: 12px;
     }
     #c3 {
-        padding-left: 10px;
+        padding-left: 6px;
     }
 }
 
