@@ -1,0 +1,94 @@
+
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    font-family: "Helvetica Neue";
+}
+
+.container {
+    width: 33.33%;
+    padding: 20px;
+    float:left;
+}
+
+.textbox {
+    background-color: lightgray;
+    border:1px solid black
+}
+
+.textbox > p {
+    padding: 10px;
+    clear: both;
+}
+
+#title {
+    padding: 20px;
+    font-size: 175%;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 125%;
+    text-align: center;
+    width: 40%;
+    border-bottom: 1px black solid;
+    border-left: 1px black solid;
+    float: right;
+}
+
+#chicken {
+    background-color: pink;
+}
+
+#beef {
+    background-color: red;
+    color: white;
+}
+
+#sushi {
+    background-color: yellow;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    #c1 {
+        padding-right: 10px;
+    }
+
+    #c2 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    #c3 {
+        padding-left: 10px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+    #c1{
+        width: 50%;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    #c2 {
+        width: 50%;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    #c3 {
+        width: 100%;
+        padding-top: 10px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    #c1, #c2, #c3 {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
