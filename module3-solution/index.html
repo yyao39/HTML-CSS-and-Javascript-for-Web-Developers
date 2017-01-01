@@ -44,6 +44,7 @@
     </nav>
   </header>
 
+
   <div id="title">Our Menu</div>
   <div class="textbox">
     <div class="subtitle" id="chicken">Chicken</div>
@@ -59,5 +60,17 @@
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
+<script>
+    $(function() {
+        $('button.navbar-toggle').click(function() {
+            var value = $('body').css('padding-top');
+            if (value === '50px') {
+                $('body').css('padding-top', '+=137');
+            } else {
+                $('body').css('padding-top', '-=137');
+            }
+        });
+    });
+</script>
 </body>
 </html>
